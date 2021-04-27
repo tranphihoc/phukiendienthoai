@@ -1,0 +1,550 @@
+<!DOCTYPE html>
+<html lang="vi">
+	<head>
+		<meta charset="utf-8">
+
+		<title>Final Project - PHỤ KIỆN ĐIỆN THOẠI Store Website -TRẦN PHI HỌC</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="">
+		<!--[if ie]><meta content='IE=8' http-equiv='X-UA-Compatible'/><![endif]-->
+		<!-- bootstrap -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">      
+		<link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="themes/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" type="text/css" href="themes/css/font-awesome.min2.css"> -->
+	<link rel="stylesheet" type="text/css" href="themes/css/font-awesome.min3.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+		<link href="themes/css/bootstrappage.css" rel="stylesheet"/>
+		
+		<!-- global styles -->
+		<link href="themes/css/flexslider.css" rel="stylesheet"/>
+		<link href="themes/css/main.css" rel="stylesheet"/>
+
+		<!-- scripts -->
+		<script src="themes/js/jquery-1.7.2.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>				
+		<script src="themes/js/superfish.js"></script>	
+		<script src="themes/js/jquery.scrolltotop.js"></script>
+		<!--[if lt IE 9]>			
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+	</head>
+    <body>		
+		<div id="top-bar" class="container">
+			<div class="row">
+				<div class="span4">
+					<form method="POST" class="search_form">
+						<div class="input-group">
+							<input type="text" class="search-query form-control input-group" Placeholder="My Phụ kiện điện thoại .">
+							<span class="input-group-btn">
+								<button class="btn btn-primary rounded-circle btnpro" type="button" id="btn-search">
+									<span class="fa fa-search"></span>
+								</button>
+							</span>
+							
+						</div>
+					</form>
+				</div>
+				<div class="span8">
+					<div class="account pull-right">
+						<ul class="user-menu">				
+							<li><a href="#">Tài khoản</a></li>
+							<li><a href="cart.html">Giỏ hàng</a></li>
+							<li><a href="checkout.html">Thanh toán</a></li>					
+							<li><a href="register.html">Đăng nhập</a></li>		
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="wrapper" class="container">
+			<section class="navbar main-menu">
+				<div class="navbar-inner main-menu">				
+					<a href="index.html" class="logo pull-left"><h4 class="title">PHỤ KIỆN ĐIỆN THOẠI  </h4></a>
+					<nav id="menu" class="pull-right">
+						<ul>
+							<li><a href="./products.html">Loại sản phẩm</a>					
+								<ul>
+									<li><a href="./products.html">Tai nghe</a></li>									
+									<li><a href="./products.html">Cáp sạc </a></li>
+									<li><a href="./products.html">Pin dự phòng</a></li>	
+									<li><a href="./products.html">Ốp lưng</a></li>																
+								</ul>
+							</li>																	
+							<!-- <li><a href="./products.html">Man</a></li>						
+							<li><a href="./products.html">Hangbag</a></li> -->
+							<li><a href="./products.html">Bán chạy nhất</a></li>
+							<li><a href="./products.html">Sản phẩm mới</a></li>
+						</ul>
+					</nav>
+				</div>
+			</section>
+			<section  class="homepage-slider" id="home-slider">
+			<div class="flexslider">
+				<ul class="slides">
+					<li>
+						<img src="themes/images/carousel/logo_1.png" alt="anh bia 1" />
+						<div class="intro">
+							<!--<h1>Laptop mua online</h1>
+							<p><span>Giảm thêm đến 1.000.000đ</span></p>
+							<p><span>Áp dụng kèm theo khuyến mãi trả thẳng khác</span></p> -->
+						</div>
+					</li>
+					<li>
+						<img src="themes/images/carousel/logo_2.png" alt="anh bia 2" />
+						
+					</li>
+					<li>
+						<img src="themes/images/carousel/logo_5.png" alt="anh bia 3" />
+						
+					</li>
+					<li>
+						<img src="themes/images/carousel/logo_6.png" alt="anh bia 4" />
+						
+					</li>
+					<li>
+						<img src="themes/images/carousel/logo_7.png" alt="anh bia 5" />
+						
+					</li>
+				</ul>
+			</div>			
+			</section>
+			<section class="header_text">
+				Website chúng tôi chuyên cung cấp các sản phẩm chất lượng có uy tín và mới nhất trên thị trường hiện nay
+				<br/>Hãy ghé thăm trang web của chúng tôi và đừng bỏ lỡ các sản phẩm mới nhé!
+			</section>
+			<section class="main-content">
+				<div class="row">
+					<div class="span12">													
+						<br/>
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									
+									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm gần đây nhất</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-2" data-slide="prev"></a><a class="right button" href="#myCarousel-2" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel-2" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps1.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth AirPods 2 Wireless charge Apple MRXJ2</a><br/>
+														<a href="products.html" class="category"><p class="price">4.900.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps2.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth True Wireless Galaxy Buds Pro</a><br/>
+														<a href="products.html" class="category"><p class="price">4.990.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps3.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth True Wireless Mozard TS13</a><br/>
+														<a href="products.html" class="category"><p class="price">679.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps4.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth True Wireless Mozard Q8</a><br/>
+														<a href="products.html" class="category"><p class="price">850.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps5.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth AirPods Pro Wireless Charge Apple MWP22</a><br/>
+														<a href="products.html" class="category"><p class="price">5.850.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps6.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Cáp Type C - Type C Anker PowerLine III A88522</a><br/>
+														<a href="products.html" class="category"><p class="price">250.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps7.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Sạc SAM SUNG EP-TA800NW</a><br/>
+														<a href="products.html" class="category"><p class="price">490.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps8.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Sạc AV ASUC 6A</a><br/>
+														<a href="products.html" class="category"><p class="price">120.000đ</p></a>
+													</div>
+												</li>
+
+											</ul>
+										</div>
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps9.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">OPPO PBV02</a><br/>
+														<p class="price">1.5800.000đ</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps11.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Energizer UE20011PQ</a><br/>
+														<p class="price">690.000đ</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps12.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Mophie 20.000 mAh Powerstation XXL</a><br/>
+														<p class="price">1.500.000đ</p>
+													</div>
+												</li>		
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps13.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">AVA LA Y64</a><br/>
+														<p class="price">240.000đ</p>
+													</div>
+												</li>																																					
+											</ul>
+										</div>
+
+										<!-- -->
+											<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps15.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">ốp lưng AUG</a><br/>														
+														<p class="price">1.00.000đ</p>
+													</div>
+												</li>
+																																	
+											</ul>
+										</div>
+										<!-- -->
+
+									</div>							
+								</div>
+							</div>						
+						</div>
+						<br/>
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									
+									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm bán chạy nhất</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-3" data-slide="prev"></a><a class="right button" href="#myCarousel-3" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel-3" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="themes/images/cloth/PS16.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Chụp Tai Gaming Logitech G331</a><br/>
+														<a href="products.html" class="category"><p class="price">1.400.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps17.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Chụp Tai Gaming Logitech G431 7.1</a><br/>
+														<a href="products.html" class="category"><p class="price">1.679.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps18.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe chụp tai Gaming Rapoo VH520C Đen</a><br/>
+														<a href="products.html" class="category"><p class="price">679.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps19.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Bluetooth Mozard K8</a><br/>
+														<a href="products.html" class="category"><p class="price">500.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<div class="item">
+											<ul class="thumbnails">
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps20.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Adapter chuyển đổi Type C 3 in 1 HyperDrive HD259A</a><br/>
+														<p class="price">1.200.000đ</p>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps21.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Adapter chuyển đổi Type C 6 in 1 HyperDrive HD233B</a><br/>
+														<p class="price">2.720.000đ</p>
+													</div>
+												</li>																																	
+											</ul>
+										</div>
+										<!-- -->
+
+									</div>							
+								</div>
+							</div>						
+						</div>
+						<br/>
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									
+									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm được xem nhiều nhất</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-4" data-slide="prev"></a><a class="right button" href="#myCarousel-4" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel-4" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps22.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Chụp Tai Gaming 7.1 Rapoo VH510</a><br/>
+														<a href="products.html" class="category"><p class="price">800.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps23.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Tai nghe Có Dây Gaming Rapoo VH500 7.1</a><br/>
+														<a href="products.html" class="category"><p class="price">990.000đ"</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps26.png" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Bao da kiêm bàn phím cho Samsung Galaxy Tab S7 Plus</a><br/>
+														<a href="products.html" class="category"><p class="price">3.679.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps27.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Bao da kiêm Bàn phím cho Samsung Galaxy Tab S6</a><br/>
+														<a href="products.html" class="category"><p class="price">2.990.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+										<!-- -->
+
+									</div>							
+								</div>
+							</div>						
+						</div>
+						<br/>
+						<div class="row">
+							<div class="span12">
+								<h4 class="title">
+									
+									<span class="pull-left"><span class="text"><span class="line"><a href="product_detail.html"><strong>Các sản phẩm khác</strong></a></span></span>
+									</span>
+									
+									<span class="pull-right">
+										<a class="left button" href="#myCarousel-5" data-slide="prev"></a><a class="right button" href="#myCarousel-5" data-slide="next"></a>
+									</span>
+								</h4>
+								<div id="myCarousel-5" class="myCarousel carousel slide">
+									<div class="carousel-inner">
+										<div class="active item">
+											<ul class="thumbnails">												
+												<li class="span3">
+													<div class="product-box">
+														<span class="sale_tag"></span>
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps28.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Hộp đựng tai nghe Apple Airpods 1/2 Laut Capsule Impkt </a><br/>
+														<a href="products.html" class="category"><p class="price">730.000đ</p></a>
+															
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps29.jpeg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Hộp đựng tai nghe Airpods Pro UAG Silicone V2</a><br/>
+														<a href="products.html" class="category"><p class="price">679.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps30.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Hộp đựng tai nghe AirPods Case</a><br/>
+														<a href="products.html" class="category"><p class="price">150.000đ</p></a>
+													</div>
+												</li>
+												<li class="span3">
+													<div class="product-box">
+														<p><a href="product_detail.html"><img src="themes/images/cloth/ps31.jpg" alt="" /></a></p>
+														<a href="product_detail.html" class="title">Óp lưng chống sốc AUG</a><br/>
+														<a href="products.html" class="category"><p class="price">1.900.000đ</p></a>
+													</div>
+												</li>
+											</ul>
+										</div>
+			</section>
+			<div class="row feature_box">						
+				<div class="span4">
+					<div class="service">
+						<div class="responsive">	
+							<img src="themes/images/feature_img_2.png" alt="" />
+							<h4>THIẾT KẾ <strong>HIỆN ĐẠI</strong></h4>
+							<p>Các sản phẩm được thiết kế theo mẫu mã hiện đại, thời thượng phù hợp với xu hướng người dùng hiện nay.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">	
+					<div class="service">
+						<div class="customize">			
+							<img src="themes/images/feature_img_1.png" alt="" />
+							<h4>GIAO HÀNG <strong>MIỄN PHÍ</strong></h4>
+							<p>Sản phầm được giao hàng nhanh, gọn bằng nhiều hình thức nhằm đáp ứng tốt yêu cầu của khách hàng.</p>
+						</div>
+					</div>
+				</div>
+				<div class="span4">
+					<div class="service">
+						<div class="support">	
+							<img src="themes/images/feature_img_3.png" alt="" />
+							<h4>PHỤC VỤ <strong>24/7</strong></h4>
+							<p>Khách hàng luôn là ưu tiên hàng đầu và được phục vụ 24/7.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		
+    </body>
+    <script src="themes/js/common.js"></script>
+		<script src="themes/js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$(document).ready(function() {
+					$('.flexslider').flexslider({
+						animation: "fade",
+						slideshowSpeed: 4000,
+						animationSpeed: 600,
+						controlNav: false,
+						directionNav: true,
+						controlsContainer: ".flex-container" // the container that holds the flexslider
+							
+	<script type="text/javascript">
+		$("#menu-filter").accordion();
+	</script>
+
+</section>
+<section style="background-color: #857474;" id="footer-bar">
+	<div class="row">
+		<div class="span3">
+			<h4>Điều Hướng</h4>
+			<ul class="nav">
+				<li><a href="./index.html">Trang chủ</a></li>  
+				<li><a href="./about.html">Thông tin</a></li>
+				<li><a href="./contact.html">Liên hệ</a></li>
+				<li><a href="./cart.html">Giỏ hàng</a></li>
+				<li><a href="./register.html">Đăng nhập</a></li>							
+			</ul>					
+		</div>
+		<div class="span4">
+			<h4>My Account</h4>
+			<ul class="nav">
+				<li><a href="#">Tài khoản của tôi</a></li>
+				<li><a href="#">Lịch sử đặt hàng</a></li>
+				<li><a href="#">Danh sách yêu thích</a></li>
+				<!-- <li><a href="#">Làm mới</a></li> -->
+			</ul>
+		</div>
+		<div class="span5">
+			<p class="logo"><!-- <img src="themes/images/logo.png" class="site_logo" alt=""> --><h4>PHỤ KIỆN ĐIỆN THOẠI</h4></p>
+			<p style="color: white;">Website chúng tôi chuyên cung cấp các sản phẩm chất lượng có uy tín và mới nhất trên thị trường hiện nay
+				<br/>Hãy ghé thăm trang web của chúng tôi và đừng bỏ lỡ các sản phẩm mới nhé!</p>
+				<div style="margin-left: 60px;">
+					<a href="#" class="button">
+						<i class="fab fa-facebook-f fa-lg"></i>
+					</a>
+					<a href="#" class="button">
+						<i class="fab fa-twitter fa-lg"></i>
+					</a>
+					<a href="#" class="button">
+						<i class="fab fa-instagram fa-lg"></i>
+					</a>
+				</div>
+				
+			</div>					
+		</div>	
+	</section>
+	<section id="copyright">
+	</div>
+<!--inner block end here-->
+<!--copy rights start here-->
+<div class="copyrights">
+	 <p>© 2021 TPH. All Rights Reserved  Design by  <a href="https://www.facebook.com/profile.php?id=100009282358208" target="_blank">Trần Phi Học</a> </p>
+</div>	
+<!--COPY rights end here-->
+</div>
+</div>
+	</section>
+</div>
+<script src="themes/js/common.js"></script>	
+<script src="themes/js/jquery.flexslider-min.js"></script>
+<script type="text/javascript">
+	$(function() {
+		$(document).ready(function() {
+			$('.flexslider').flexslider({
+				animation: "fade",
+				slideshowSpeed: 4000,
+				animationSpeed: 600,
+				controlNav: false,
+				directionNav: true,
+						controlsContainer: ".flex-container" // the container that holds the flexslider
+					});
+		});
+	});
+</script>
+</body>
+</html>
+					});
+				});
+			});
+		</script>
+    </body>
+</html>
+</html>
